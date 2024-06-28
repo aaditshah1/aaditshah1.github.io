@@ -3,31 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="Aadit Shah" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Aadit Shah's Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Aadit Shah</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
-        <img src="https://umd.instructure.com/courses/1363475/files/77333215/preview" alt="Profile Picture" class="profile-pic">
-        <section>
-            <h2>Contact Information</h2>
-            <p>Email: <a href="mailto:aaditdeepan@gmail.com">aaditdeepan@gmail.com</a></p>
-        </section>
-        <section>
-            <h2>About Me</h2>
-            <p>
-                As a rising junior at the University of Maryland, College Park, I am on a thrilling journey, diving deep into the realms of Computer Science and Computational Finance. With each passing day, I find myself more captivated by the incredible potential that lies at the intersection of these two dynamic fields. My heart races with excitement as I envision the groundbreaking applications of machine learning techniques in solving the most complex financial puzzles and optimizing financial processes. Through my immersive coursework and hands-on experiences, I have carefully crafted a solid foundation in both computer science and finance, arming myself with the tools to make a meaningful impact in organizations that recognize the transformative power of technology in the financial landscape.
-            </p>
-        </section>
-        <section>
-            <h2>Interests</h2>
-            <p>
-                Over the past two years, my fascination with machine learning has taken me on a wild ride, as I've discovered the awe-inspiring potential and real-world applications of this cutting-edge technology. At the same time, my love affair with finance has only grown stronger, propelling me to explore the mind-bending possibilities that emerge when these two worlds collide. I find myself utterly enchanted by the prospect of harnessing the magic of machine learning to unravel the most intricate financial riddles and streamline financial processes, knowing that this powerful combination holds the key to revolutionizing the finance industry as we know it. With my eclectic skill set, ranging from a mastery of programming languages and machine learning frameworks to hands-on experience in creating dynamic websites and implementing question-answering models, I am ready to bring my unique perspective, razor-sharp problem-solving skills, and unbridled passion for the intersection of computer science and finance to any opportunity that comes my way, eager to leave my mark on the world.
-            </p>
-        </section>
+        <main>
+            <section id="about">
+                <div class="content">
+                    <h2>About Me</h2>
+                    <p>
+                        As a rising junior at the University of Maryland, College Park, I am on a thrilling journey, diving deep into the realms of Computer Science and Computational Finance. With each passing day, I find myself more captivated by the incredible potential that lies at the intersection of these two dynamic fields. My heart races with excitement as I envision the groundbreaking applications of machine learning techniques in solving the most complex financial puzzles and optimizing financial processes. Through my immersive coursework and hands-on experiences, I have carefully crafted a solid foundation in both computer science and finance, arming myself with the tools to make a meaningful impact in organizations that recognize the transformative power of technology in the financial landscape.
+                    </p>
+                </div>
+                <img src="https://umd.instructure.com/courses/1363475/files/77333215/preview" alt="Profile Picture" class="profile-pic">
+            </section>
+            <section id="interests">
+                <h2>Interests</h2>
+                <div class="interest-items">
+                    <div class="interest-item">
+                        <i class="fas fa-brain"></i>
+                        <h3>Machine Learning</h3>
+                        <p>Exploring the awe-inspiring potential and real-world applications of machine learning technology.</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Computational Finance</h3>
+                        <p>Harnessing the power of machine learning to unravel intricate financial riddles and streamline financial processes.</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                        <p>Mastery of programming languages and frameworks to create dynamic websites and implement question-answering models.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>Email: <a href="mailto:aaditdeepan@gmail.com">aaditdeepan@gmail.com</a></p>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Aadit Shah. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
